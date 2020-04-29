@@ -70,7 +70,7 @@ const data = {
   queue: hasQueue ? JSON.parse(localStorage.getItem('queue')) : [],
 };
 // const client = new ApolloClient({
-//   uri: "https://apaullo-music.herokuapp.com/v1/graphql"
+//   uri: "https://apollo-music-share.herokuapp.com/v1/graphql"
 // });
 client.writeData({ data });
 
